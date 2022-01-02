@@ -1,0 +1,11 @@
+.subContainer{
+    flex-direction: column;
+}
+
+.buyCoffee{
+    background-color: #F47458;
+    border-radius: 23px;
+    border: none;
+    padding: 11px 22px 11px 22px;
+    color: white;
+}
