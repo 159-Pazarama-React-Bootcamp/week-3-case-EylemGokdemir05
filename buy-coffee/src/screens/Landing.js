@@ -15,13 +15,12 @@ function Landing() {
 
     return(
         <div className='container'>
-            <h1>Landing</h1>
             <div className='subContainer'>
                 <div className='textContainer'>
-                    <img src={hello} alt="hello" />
+                    <img  className='mainLogo' src={hello} alt="hello" />
                     <img src={welcometext} alt="welcometext" />
                 </div>
-                <img src={logo} alt="logo" />
+                <img className='landingLogo' src={logo} alt="logo" />
             </div>
             <button className="buyCoffee" type="submit" onClick={goToLogin}>Login</button>
         </div>
