@@ -22,7 +22,7 @@ function Landing() {
                 </div>
                 <img className='landingLogo' src={logo} alt="logo" />
             </div>
-            <button className="buyCoffee" type="submit" onClick={goToLogin}>Login</button>
+            <button className="buyCoffee" type="submit" onClick={goToLogin}>Buy me coffee</button>
         </div>
     )
 }

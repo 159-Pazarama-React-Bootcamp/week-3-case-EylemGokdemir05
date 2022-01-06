@@ -7,6 +7,7 @@ import { Routes, Route  } from "react-router-dom";
 import React from 'react';
 import { initializeApp } from "firebase/app";
 import { firebaseConfig } from "./configs/firebaseConfig";
+import Home from './screens/Home';
 
 function App() {
   initializeApp(firebaseConfig);
@@ -17,6 +18,7 @@ function App() {
         <PrivateRoute />
       </Login>} />
       <Route path="/signup" element={<Signup />} />
+      <Route path="/home" element={<Home />} />
     </Routes>
   );
 }
